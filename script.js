@@ -6,10 +6,6 @@ const number = document.querySelector('.number');
 const btnCheck = document.querySelector('.check');
 const btnAgain = document.querySelector('.again');
 const message = document.querySelector('.message');
-
-
-
-number.textContent = secretNumber;
 var score = 20;
 const displayScore = document.querySelector('.score');
 displayScore.textContent = score;
@@ -47,14 +43,11 @@ btnCheck.addEventListener('click', function() {
     } else {
         message.textContent = 'You lost the game';
         document.body.style.backgroundColor = 'red';
-        number.textContent = secretNumber;
-        number.style.width = '30rem';
 
         secretNumber = Math.trunc(Math.radom() * 20) + 1;
         number.textContent = secretNumber;
         score = 20;
         displayScore.textContent = score;
-        message.textContent = 'Start Guessing';
         document.querySelector('.guess').value = '';
     }
 
@@ -62,7 +55,8 @@ btnCheck.addEventListener('click', function() {
 
 btnAgain.addEventListener('click', function() {
     secretNumber = Math.trunc(Math.radom() * 20) + 1;
-    number.textContent = secretNumber;
+    document.querySelector('.number').value = '?';
+    number.textContent = document.querySelector('.number').value = '?';;
     score = 20;
     displayScore.textContent = score;
     message.textContent = 'Start Guessing';

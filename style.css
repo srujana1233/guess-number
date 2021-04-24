@@ -1,48 +1,32 @@
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
-        * {
-            font-family: 'Montserrat', sans-serif;
-        }
-        
-         :root {
-            --primary: #374151;
-            --secondary: #F87171;
-            --brown: #92400E;
-            --white: #ffffff;
-        }
-        
         body {
-            background-color: #F87171;
-            font-family: 'Lato', sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: blanchedalmond;
         }
         
         h1 {
+            font-size: 45px;
             text-align: center;
-        }
-        
-        #title {
-            font-size: 2rem
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif text-shadow: 0 0 20px #Ffffff;
         }
         
         .between {
             text-align: right;
             margin-top: 0.5rem;
-            color: var(--primary);
-            display: block;
-            padding-left: 1rem;
             padding-right: 1rem;
-            max-width: 600px;
             margin: auto;
         }
         
-        .btnagain {
-            text-align: right;
+        .btn-again {
+            text-align: left;
             margin-top: 0.5rem;
-            color: var(--primary);
-            display: block;
             padding-left: 1rem;
             padding-right: 1rem;
-            max-width: 600px;
             margin: auto;
+            display: inline;
         }
         
         .number {
@@ -63,8 +47,8 @@
             margin: 20px;
         }
         
-        .btncheck {
-            text-align: center;
+        .btn-check {
+            text-align: left;
             margin-top: 0.5rem;
             color: var(--primary);
             display: block;
@@ -83,9 +67,4 @@
             padding-right: 1rem;
             max-width: 600px;
             margin: 20px;
-        }
-        
-        section {
-            padding: 2rem 0;
-            display: block;
         }
