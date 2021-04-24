@@ -67,4 +67,4 @@ btnAgain.addEventListener('click', function() {
             displayScore.textContent = score;
             message.textContent = 'Start Guessing';
             document.querySelector('.guess').value = '';
-        }
+        };
