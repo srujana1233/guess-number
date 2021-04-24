@@ -10,7 +10,8 @@
             font-size: 45px;
             text-align: center;
             font-style: italic;
-            font-family: Georgia, 'Times New Roman', Times, serif text-shadow: 0 0 20px #Ffffff;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 0 0 20px #Ffffff;
         }
         
         .between {
@@ -47,6 +48,17 @@
             margin: 20px;
         }
         
+        .guess {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
         .btn-check {
             text-align: left;
             margin-top: 0.5rem;
@@ -62,6 +74,38 @@
             text-align: right;
             margin-top: 0.5rem;
             color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        .message {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        .label-score {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        .label-highscore {
+            text-align: right;
+            margin-top: 0.5rem;
             display: block;
             padding-left: 1rem;
             padding-right: 1rem;
