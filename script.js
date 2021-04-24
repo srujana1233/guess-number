@@ -61,10 +61,10 @@ btnCheck.addEventListener('click', function() {
 });
 
 btnAgain.addEventListener('click', function() {
-            secretNumber = Math.trunc(Math.radom() * 20) + 1;
-            number.textContent = secretNumber;
-            score = 20;
-            displayScore.textContent = score;
-            message.textContent = 'Start Guessing';
-            document.querySelector('.guess').value = '';
-        };
+    secretNumber = Math.trunc(Math.radom() * 20) + 1;
+    number.textContent = secretNumber;
+    score = 20;
+    displayScore.textContent = score;
+    message.textContent = 'Start Guessing';
+    document.querySelector('.guess').value = '';
+});

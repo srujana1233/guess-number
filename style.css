@@ -1,0 +1,91 @@
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+         :root {
+            --primary: #374151;
+            --secondary: #F87171;
+            --brown: #92400E;
+            --white: #ffffff;
+        }
+        
+        body {
+            background-color: #F87171;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        #title {
+            font-size: 2rem
+        }
+        
+        .between {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        .btnagain {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        .number {
+            text-align: center;
+            display: block;
+            padding: 1rem;
+            border: 1em;
+            margin: 20px;
+        }
+        
+        .left {
+            text-align: left;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        .btncheck {
+            text-align: center;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        .right {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            display: block;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 600px;
+            margin: 20px;
+        }
+        
+        section {
+            padding: 2rem 0;
+            display: block;
+        }
