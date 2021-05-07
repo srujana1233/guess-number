@@ -1,6 +1,6 @@
 'use script'
 
-var secretNumber = Math.trunc(Math.radom() * 20) + 1;
+var secretNumber = Math.trunc(Math.random() * 20) + 1;
 const number = document.querySelector('.number');
 
 const btnCheck = document.querySelector('.check');
