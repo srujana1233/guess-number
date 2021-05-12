@@ -6,6 +6,7 @@ const number = document.querySelector('.number');
 const btnCheck = document.querySelector('.check');
 const btnAgain = document.querySelector('.again');
 const message = document.querySelector('.message');
+
 var score = 20;
 const displayScore = document.querySelector('.score');
 displayScore.textContent = score;
