@@ -20,7 +20,7 @@ btnCheck.addEventListener('click', function() {
     if (score > 0) {
         if (guess > 0 && guess <= 20) {
             if (guess === secretNumber) {
-                message.textContent = 'your number is correct';
+                message.textContent = 'Your Number is Correct';
                 document.body.style.backgroundColor = 'green';
                 number.textContent = secretNumber;
                 number.style.width = '30rem';
@@ -29,11 +29,11 @@ btnCheck.addEventListener('click', function() {
                     displayHighScore.textContent = highScore;
                 }
             } else if (guess > secretNumber) {
-                message.textContent = 'your number is high';
+                message.textContent = 'Your Number is High';
                 score--;
                 displayScore.textContent = score;
             } else if (guess < secretNumber) {
-                message.textContent = 'your number is low';
+                message.textContent = 'Your Number is Low';
                 score--;
                 displayScore.textContent = score;
             }
