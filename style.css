@@ -24,12 +24,12 @@ body {
 
 header {
     position: relative;
-    height: 45vh;
+    height: 40vh;
      border-bottom: 7px solid black; 
 }
 
 main {
-    height: 65vh;
+    height: 45vh;
     color:black;
     display: flex;
     align-items: center;
